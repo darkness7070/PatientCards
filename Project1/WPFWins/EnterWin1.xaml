@@ -1,0 +1,20 @@
+﻿<Window x:Class="Project1.WPFWins.EnterWin1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project1.WPFWins"
+        mc:Ignorable="d"
+        Title="Введите снилс" Height="250" Width="450" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="txtBlock1" HorizontalAlignment="Center" Text="Введите снилс:" VerticalAlignment="Center" FontSize="24" FontFamily="Times New Roman" Margin="12"/>
+        <TextBox Name="boxInput" FontSize="24" FontFamily="Times New Roman" Margin="6,6,6,6" Grid.Row="1" Height="32"/>
+        <Button Name="btnOK" Content="OK" HorizontalAlignment="Right" Grid.Row="2" VerticalAlignment="Top" Height="32" FontSize="24" FontFamily="Times New Roman" BorderBrush="#FFABADB3" Background="White" Margin="0,12,24,0" Padding="36,1,36,1" Click="btnOK_Click"/>
+
+    </Grid>
+</Window>
