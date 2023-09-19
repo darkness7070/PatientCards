@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "Project1\Project1.csproj", "{B818502B-77CC-453C-A9A2-08BEE56F9D89}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBProject1", "DBProject1\DBProject1.csproj", "{F0237969-0A9C-4650-A9A8-34BE79D8DFBC}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B818502B-77CC-453C-A9A2-08BEE56F9D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B818502B-77CC-453C-A9A2-08BEE56F9D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B818502B-77CC-453C-A9A2-08BEE56F9D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B818502B-77CC-453C-A9A2-08BEE56F9D89}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F0237969-0A9C-4650-A9A8-34BE79D8DFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F0237969-0A9C-4650-A9A8-34BE79D8DFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0237969-0A9C-4650-A9A8-34BE79D8DFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -26,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {48EB3FAD-6C23-493F-BA59-B8C86C93931D}
+		SolutionGuid = {90902C8C-96D4-417F-A32E-F119F7E44A1A}
 	EndGlobalSection
 EndGlobal
